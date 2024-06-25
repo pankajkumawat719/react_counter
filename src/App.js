@@ -21,7 +21,7 @@ function App() {
         <div>{count}</div>
         <button onClick={incrementHandler}>+</button>
       </div>
-      <button className="" onClick={resetHandler}>
+      <button className="bg-[blue]" onClick={resetHandler}>
         Reset
       </button>
     </div>
